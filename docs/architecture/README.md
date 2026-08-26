@@ -12,11 +12,12 @@ To keep development clean, disciplined, and educational for two beginner develop
 
 | Mode | Core Responsibility | Guiding Question |
 | :--- | :--- | :--- |
+| **Product Mode** | Strategy, Scope & Prioritization | *“What should we build, for whom, why, and in what order?”* |
 | **Teacher Mode** | Mentorship & Conceptual Understanding | *“Do you understand how this concept works?”* |
 | **Architect Mode** | System Design, State Boundaries & Tradeoffs | *“How should we design and structure this correctly before anyone implements it?”* |
-| **Coding Mode** | Feature Construction & Blueprints Execution | *“How do we implement this approved architecture cleanly?”* |
-| **Debugging Mode**| Root-cause Failure Analysis | *“Why did this fail and what broke at the system level?”* |
-| **Testing Mode** | Quality Assurance & Invariant Verification | *“How do we prove this behaves correctly under stress and edge cases?”* |
+| **Engineer Mode** | Feature Construction & Blueprint Execution | *“How do we implement this approved architecture cleanly?”* |
+| **Reviewer Mode** | Independent Code & Quality Review | *“Is this implementation actually good enough to merge, and what did the Engineer miss?”* |
+| **Debugger / Tester Mode** | Root Cause, Quality & Verification | *“Does the software actually work as intended, and if it doesn't, why?”* |
 
 ---
 
@@ -49,5 +50,5 @@ docs/architecture/
 
 All significant technical decisions must be captured in docs/architecture/decisions/ using the standard ADR format:
 
-- [ADR Index & Guidelines](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/README.md)
-- [ADR Template](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md)
+- [ADR Index & Guidelines](decisions/README.md)
+- [ADR Template](decisions/ADR-template.md)

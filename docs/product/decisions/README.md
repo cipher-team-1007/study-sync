@@ -1,6 +1,17 @@
-# Product Decision Records (PDRs)
+# StudySync — Product Decision Records (PDR)
 
-This directory contains records of significant product decisions, scope boundaries, and tradeoffs made for StudySync.
+This directory contains formal **Product Decision Records (PDR)** that document significant scope, feature, and user-experience choices.
+
+---
+
+## 🎯 What belongs here?
+
+- Scope decisions (what is in MVP vs postponed)
+- User experience & workflow choices
+- Target audience focus adjustments
+- Feature rejection rationale
+
+> Note: **Technical architecture decisions** (databases, WebSocket protocols, server state) belong in `docs/architecture/decisions/` (ADRs), NOT here.
 
 ---
 
@@ -8,7 +19,7 @@ This directory contains records of significant product decisions, scope boundari
 
 | ID | Title | Status | Date |
 | :--- | :--- | :--- | :--- |
-| *PDR-001* | *(Template / First Decision)* | *Proposed* | *2026-08-27* |
+| **[PDR-001](PDR-001-mvp-scope-boundary.md)** | MVP Scope Boundary & Feature Protection | **Accepted** | 2026-08-27 |
 
 ---
 

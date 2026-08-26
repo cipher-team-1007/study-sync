@@ -1,20 +1,12 @@
 # StudySync — Product Documentation
 
-Welcome to the product specification and roadmap repository for **StudySync**.
+Welcome to the product specification and roadmap repository for **StudySync**. This space is owned and managed by **Product Mode**.
 
-This directory is owned and maintained by **Product Mode** and serves as the product source of truth.
-
----
-
-## 🎯 Product Mission & Core Question
-
-> **“What should we build, for whom, why, and in what order?”**
-
-Product Mode protects the product from feature creep and keeps development focused on building something that two beginner developers can build well and that users will actually love using.
+> Core Question: **“What should we build, for whom, why, and in what order?”**
 
 ---
 
-## 🔄 The Core Product Loop
+## 🎯 The Core Product Loop
 
 ```text
   PLAN ──► SHARE ──► JOIN ──► FOCUS ──► SYNC ──► REVIEW
@@ -31,19 +23,17 @@ Product Mode protects the product from feature creep and keeps development focus
 
 ## 📂 Product Documentation Structure
 
-```text
-docs/product/
-├── README.md              # Product overview, core loop, and directory navigation
-├── vision.md              # Product vision, core value proposition, and experience principles
-├── problem.md             # Primary product problem and working hypotheses
-├── target-user.md         # Target audience definition, anti-personas, and user profiles
-├── user-flows.md          # End-to-end user flows and friction analysis
-├── feature-map.md         # Feature categorization (CORE, IMPORTANT, LATER, REJECT)
-├── roadmap.md             # Phased roadmap (Now, Next, Later)
-├── decisions/             # Product Decision Records (PDRs)
-├── user-stories/          # Behavior-focused user stories with acceptance criteria
-└── experiments/           # Lightweight product validation experiments
-```
+| Document | Purpose |
+| :--- | :--- |
+| **[vision.md](vision.md)** | Product vision, core loop, and primary product definition. |
+| **[problem.md](problem.md)** | Working problem hypothesis and validation criteria. |
+| **[target-user.md](target-user.md)** | Target audience, focus groups, and intentional anti-audiences. |
+| **[user-flows.md](user-flows.md)** | End-to-end user journeys (Host creation, joining, live execution). |
+| **[feature-map.md](feature-map.md)** | Feature categorization (CORE, IMPORTANT, LATER, REJECT). |
+| **[roadmap.md](roadmap.md)** | Phased product roadmap (Phase 0 Foundation through Phase 8 Advanced). |
+| **[user-stories/](user-stories/README.md)** | User story repository with acceptance criteria. |
+| **[experiments/](experiments/README.md)** | Lightweight product hypothesis validation experiments. |
+| **[decisions/](decisions/README.md)** | Product Decision Records (PDRs) for major scope & strategy choices. |
 
 ---
 
@@ -57,3 +47,11 @@ Every major product decision must answer:
 - **WHY** now?
 - **WHAT** are we intentionally not building?
 - **HOW** will we know it is useful?
+
+---
+
+## 🛡️ Scope Protection Rules
+
+1. **Protect the Magic Moment**: Fast, frictionless creation of a shared horizontal timeline + synchronized execution.
+2. **Feature Prioritization Framework**: Classify every proposal into `CORE`, `IMPORTANT`, `LATER`, or `REJECT / NOT NOW`.
+3. **No Unnecessary Complexity**: Say "Not yet" to complex AI features, social feeds, leaderboards, multi-tenant enterprise features, or mobile native apps until the core loop is exceptional.

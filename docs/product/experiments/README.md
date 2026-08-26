@@ -1,13 +1,32 @@
-# StudySync — Product Experiments & Validation
+# StudySync — Product Experiments & Validation Log
 
-When uncertainty around user behavior or feature value is high, we run lightweight product experiments to test our hypotheses before writing complex code.
+This directory tracks lightweight product experiments designed to validate product hypotheses and reduce uncertainty cheaply before building complex infrastructure.
 
 ---
 
 ## 🧪 Experiment Structure
 
-1. **Question:** What specific user behavior are we unsure about?
-2. **Hypothesis:** What do we expect users will do?
-3. **Smallest Test:** What is the simplest, lowest-effort way to test this?
-4. **Signal:** What observable behavior or metric tells us whether the hypothesis is true?
-5. **Outcome:** What did we observe and what should we build (or not build) as a result?
+```markdown
+# EXP-00X: [Experiment Title]
+
+## Hypothesis
+What specific user behavior do we expect users will do?
+
+## Smallest Test
+What is the simplest, lowest-effort prototype or test we ran?
+
+## Signal & Observation
+What observable behavior or metric occurred during usage?
+
+## Conclusion
+What did we learn? Accept / Modify / Reject hypothesis? What should we build (or not build)?
+```
+
+---
+
+## 📋 Active & Planned Experiments
+
+| ID | Title | Hypothesis | Status | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **EXP-001** | Shared Timer Control | Two users in a room both want equal ability to Start/Pause without rigid permissions initially. | Planned | Pending MVP prototype testing |
+| **EXP-002** | Horizontal Timeline Layout | A horizontal drag/resize grid is more intuitive for study pacing than a standard vertical list. | Planned | Pending UI user testing |

@@ -62,4 +62,4 @@ A feature is **DONE** only when:
 *Test strategies, automated test suites, and manual verification scripts.*
 
 ### Learning Log
-- [Developer Learning Log](file:///c:/Users/kunal/Desktop/study-sync/docs/engineering/learning-log.md)
+- [Developer Learning Log](learning-log.md)
