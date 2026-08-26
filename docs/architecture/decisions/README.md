@@ -1,0 +1,24 @@
+# Architecture Decision Records (ADRs)
+
+Architecture Decision Records (ADRs) capture important technical decisions, their context, options evaluated, tradeoffs accepted, and future reconsideration triggers.
+
+## Why We Use ADRs
+
+When building software (especially as two developers learning engineering), it is easy to forget *why* a certain library, database structure, or synchronization pattern was selected. ADRs preserve institutional memory and prevent endless relitigation of past decisions.
+
+## Index of Decisions
+
+| ADR | Title | Status | Date |
+| :--- | :--- | :--- | :--- |
+| [ADR-000](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md) | ADR Template & Process Definition | Accepted | 2026-08-27 |
+
+---
+
+## When to Write an ADR
+
+Write an ADR whenever making a decision that:
+- Selects or changes a core technology (framework, database, realtime engine, auth provider)
+- Defines a shared state management or synchronization strategy
+- Establishes a database schema philosophy (e.g. relational tables vs JSON documents)
+- Changes security or authorization boundaries
+- Introduces or rejects architectural patterns (e.g. Event Sourcing, CRDTs, Microservices)
