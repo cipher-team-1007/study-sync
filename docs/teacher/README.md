@@ -30,5 +30,5 @@ docs/teacher/
 ## Index of Lessons & Concepts
 
 ### Lessons
-- [Lesson 001: Web Architecture Foundations for StudySync](file:///c:/Users/kunal/Desktop/study-sync/docs/teacher/lessons/001-phase0-web-architecture-foundations.md)
+- [Lesson 001: Web Architecture Foundations for StudySync](lessons/001-phase0-web-architecture-foundations.md)
 
