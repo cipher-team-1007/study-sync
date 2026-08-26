@@ -29,4 +29,6 @@ docs/teacher/
 
 ## Index of Lessons & Concepts
 
-*Lessons and concepts will be added sequentially as we progress through Phase 0 and beyond.*
+### Lessons
+- [Lesson 001: Web Architecture Foundations for StudySync](file:///c:/Users/kunal/Desktop/study-sync/docs/teacher/lessons/001-phase0-web-architecture-foundations.md)
+
