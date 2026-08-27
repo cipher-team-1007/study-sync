@@ -6,9 +6,9 @@
 
 ## 🎯 The Core Product Loop
 
-`	ext
+```text
   PLAN ──► SHARE ──► JOIN ──► FOCUS ──► SYNC ──► REVIEW
-`
+```
 
 ---
 

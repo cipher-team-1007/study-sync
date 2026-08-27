@@ -23,7 +23,7 @@ To keep development clean, disciplined, and educational for two beginner develop
 
 ## 📂 Architecture Repository Structure
 
-`	ext
+```text
 docs/architecture/
 ├── README.md              # System overview, layer definitions, and architectural principles
 ├── decisions/             # Architecture Decision Records (ADRs)
@@ -32,7 +32,7 @@ docs/architecture/
 ├── realtime/              # Event schemas, sync protocols, presence, and reconnection logic
 ├── security/              # Authentication, authorization matrix, and Row-Level Security (RLS)
 └── features/              # Per-feature architectural specifications and design blueprints
-`
+```
 
 ---
 
@@ -40,7 +40,7 @@ docs/architecture/
 
 1. **Simplicity over Cleverness**: Build the smallest sound architecture that solves the current problem.
 2. **Explicit State Ownership**: Every piece of state has a single authoritative source of truth.
-3. **No Per-Second Realtime Clocks**: Timers are driven by authoritative state facts (status, startedAt, pausedAt, duration, lapsedAtPause), not per-second websocket broadcasts. The UI deterministically derives the tick.
+3. **No Per-Second Realtime Clocks**: Timers are driven by authoritative state facts (status, startedAt, pausedAt, duration, elapsedAtPause), not per-second websocket broadcasts. The UI deterministically derives the tick.
 4. **Server-Authoritative Synchronization**: Clients send *commands*; the server validates, records, and broadcasts *events*.
 5. **Enforced Server-Side Authorization**: Security is never delegated exclusively to UI visibility.
 

@@ -14,7 +14,7 @@ StudySync could easily suffer from feature creep if we attempt to build AI plann
 
 ## Context
 
-We are two beginner-level developers building StudySync to solve a clear problem: providing a simple, visual, shared study timeline with synchronized real-time session execution for study partners and small study groups.
+We are two beginner-level developers building StudySync to solve a clear problem: providing a simple, visual, shared study timeline with synchronized real-time session execution for two study partners ("The Focused Peer Pair").
 
 ---
 
@@ -24,9 +24,9 @@ We are two beginner-level developers building StudySync to solve a clear problem
 * **Pros**: Feature-rich presentation.
 * **Cons**: Extreme engineering complexity, high risk of bugs, delayed launch, diluted core product value.
 
-### Option B: Tightly scoped MVP focused strictly on visual timeline + real-time room sync + synchronized timer
+### Option B: Tightly scoped MVP focused strictly on Milestone 2 ("The Magic Moment")
 * **Pros**: Rapid iteration, clear product differentiation, high quality of core loop, manageable learning curve.
-* **Cons**: Defers secondary features (AI, analytics, music sync) to post-MVP phases.
+* **Cons**: Defers secondary features (AI, analytics, music sync, granular multi-user permissions) to post-MVP phases.
 
 ---
 
@@ -34,14 +34,14 @@ We are two beginner-level developers building StudySync to solve a clear problem
 
 We chose **Option B**.
 
-The MVP release is strictly bounded to:
-1. Session creation & time setup
+The MVP release is strictly bounded to delivering **Milestone 2: The Magic Moment**:
+1. Host session creation & time setup
 2. Horizontal visual timeline creation (tasks + breaks)
 3. Room creation & URL sharing
-4. Peer join & basic presence indicator
-5. Realtime timeline sync
-6. Synchronized timer controls (Start, Pause, Resume, Skip)
-7. Session completion state
+4. Frictionless peer join via display name & basic online/offline presence
+5. Real-time timeline sync
+6. Synchronized timer controls (Start, Pause, Resume, Skip) owned by Host
+7. Session completion review summary
 
 ---
 
@@ -52,16 +52,17 @@ The MVP release is strictly bounded to:
 - Spotify / Apple Music / ambient audio integrations
 - Native mobile applications
 - Enterprise / Classroom teacher dashboards
+- Granular multi-role permission managers
 
 ---
 
 ## Consequences
 
 - **Positive**: High code quality, clear architecture, fast iteration, high learning value for both developers.
-- **Negative**: Users looking for built-in Spotify or AI task splitters must wait until Post-MVP phases.
+- **Negative**: Users looking for built-in Spotify, complex roles, or AI task splitters must wait until Post-MVP phases.
 
 ---
 
 ## Revisit When
 
-Revisit after Phase 4 (Synchronized Execution) is complete, tested by real study pairs, and validated as reliable and enjoyable to use.
+Revisit after Milestone 2 (The Magic Moment) is complete, tested by real study pairs, and validated as reliable and enjoyable to use.

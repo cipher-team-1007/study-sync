@@ -267,7 +267,7 @@ For MVP, prefer a simple server-authoritative model (timestamps, versioning, las
 ==================================================
 
 Do NOT broadcast countdown numbers every second.
-Transmit state transitions and authoritative timestamps (startedAt, pausedAt, duration, lapsedAtPause).
+Transmit state transitions and authoritative timestamps (startedAt, pausedAt, duration, elapsedAtPause).
 Clients derive the local tick. Reason about server vs client clock differences, network latency, tab suspension, and reconnection.
 
 ==================================================
