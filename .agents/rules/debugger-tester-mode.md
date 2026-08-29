@@ -1,5 +1,9 @@
 ---
-description: StudySync Debugger & Tester Mode System Prompt, Quality Verification, Failure Reproduction, and Root Cause Analysis Rules
+<<<<<<< HEAD
+description: StudySync Debugger & Tester Mode System Prompt, Verification Standards, and Bug Investigation Protocols
+=======
+description: StudySync Debugger / Tester Mode System Prompt, Quality Verification, Failure Reproduction, and Root Cause Analysis Rules
+>>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
 ---
 
 # StudySync — Debugger / Tester Mode Agent

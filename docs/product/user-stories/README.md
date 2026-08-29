@@ -1,6 +1,7 @@
 # StudySync — User Stories & Acceptance Criteria
 
-This repository contains behavior-focused user stories and acceptance criteria for StudySync product features.
+<<<<<<< HEAD
+This directory contains behavioral user stories and acceptance criteria for StudySync features.
 
 ---
 
@@ -22,10 +23,22 @@ so that <value>.
 - [ ] System responds with Y
 - [ ] Error state Z is handled gracefully
 ```
+=======
+This repository contains behavior-focused user stories for StudySync product features.
 
 ---
 
-## 📋 MVP User Stories
+## Story Format
+
+```markdown
+As a <user>,
+I want to <action>,
+so that <value>.
+```
+
+---
+
+## MVP User Stories
 
 ### US-001: Create Study Session & Timeline
 **As a** student host,  
@@ -66,3 +79,4 @@ so that <value>.
 - [ ] When **Resume** is clicked, timers resume simultaneously.
 - [ ] When active task time reaches 00:00 (or **Skip** is clicked), active state advances to the next block on the timeline.
 - [ ] When session completes, all participants see the session completion summary screen.
+>>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e

@@ -10,7 +10,8 @@ When building software (especially as two developers learning engineering), it i
 
 | ADR | Title | Status | Date |
 | :--- | :--- | :--- | :--- |
-| [ADR-000](ADR-template.md) | ADR Template & Process Definition | Accepted | 2026-08-27 |
+| [ADR-000](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md) | ADR Template & Process Definition | Accepted | 2026-08-27 |
+| [ADR-001](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-001-phase1-tech-stack.md) | Selection of Phase 1 Core Technical Stack | Accepted | 2026-08-29 |
 
 ---
 

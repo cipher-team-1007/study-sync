@@ -12,27 +12,36 @@ To keep development clean, disciplined, and educational for two beginner develop
 
 | Mode | Core Responsibility | Guiding Question |
 | :--- | :--- | :--- |
-| **Product Mode** | Strategy, Scope & Prioritization | *“What should we build, for whom, why, and in what order?”* |
 | **Teacher Mode** | Mentorship & Conceptual Understanding | *“Do you understand how this concept works?”* |
 | **Architect Mode** | System Design, State Boundaries & Tradeoffs | *“How should we design and structure this correctly before anyone implements it?”* |
-| **Engineer Mode** | Feature Construction & Blueprint Execution | *“How do we implement this approved architecture cleanly?”* |
-| **Reviewer Mode** | Independent Code & Quality Review | *“Is this implementation actually good enough to merge, and what did the Engineer miss?”* |
-| **Debugger / Tester Mode** | Root Cause, Quality & Verification | *“Does the software actually work as intended, and if it doesn't, why?”* |
+| **Coding Mode** | Feature Construction & Blueprints Execution | *“How do we implement this approved architecture cleanly?”* |
+| **Debugging Mode**| Root-cause Failure Analysis | *“Why did this fail and what broke at the system level?”* |
+| **Testing Mode** | Quality Assurance & Invariant Verification | *“How do we prove this behaves correctly under stress and edge cases?”* |
+
+---
+
+## 📑 Core Architecture Specifications
+
+- **[System Architecture Overview (Phase 1 MVP)](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/system-overview.md)** — Master blueprint covering stack, state hierarchy, data flow, and failure recovery.
+- **[Architecture Decision Records (ADRs)](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/README.md)** — Institutional memory for technical decisions.
+  - [ADR-000: ADR Process & Template](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md)
+  - [ADR-001: Phase 1 Core Technical Stack](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-001-phase1-tech-stack.md)
 
 ---
 
 ## 📂 Architecture Repository Structure
 
-`	ext
+```text
 docs/architecture/
 ├── README.md              # System overview, layer definitions, and architectural principles
+├── system-overview.md     # Phase 1 Master Architecture Blueprint
 ├── decisions/             # Architecture Decision Records (ADRs)
 ├── diagrams/              # System architecture, data flow, and state transition diagrams
 ├── data-model/            # Entity schemas, relational constraints, and database design
 ├── realtime/              # Event schemas, sync protocols, presence, and reconnection logic
 ├── security/              # Authentication, authorization matrix, and Row-Level Security (RLS)
 └── features/              # Per-feature architectural specifications and design blueprints
-`
+```
 
 ---
 
@@ -40,15 +49,6 @@ docs/architecture/
 
 1. **Simplicity over Cleverness**: Build the smallest sound architecture that solves the current problem.
 2. **Explicit State Ownership**: Every piece of state has a single authoritative source of truth.
-3. **No Per-Second Realtime Clocks**: Timers are driven by authoritative state facts (status, startedAt, pausedAt, duration, lapsedAtPause), not per-second websocket broadcasts. The UI deterministically derives the tick.
+3. **No Per-Second Realtime Clocks**: Timers are driven by authoritative state facts (`status`, `startedAt`, `pausedAt`, `duration`, `elapsedAtPause`), not per-second websocket broadcasts. The UI deterministically derives the tick.
 4. **Server-Authoritative Synchronization**: Clients send *commands*; the server validates, records, and broadcasts *events*.
 5. **Enforced Server-Side Authorization**: Security is never delegated exclusively to UI visibility.
-
----
-
-## 📑 Architecture Decision Records (ADRs)
-
-All significant technical decisions must be captured in docs/architecture/decisions/ using the standard ADR format:
-
-- [ADR Index & Guidelines](decisions/README.md)
-- [ADR Template](decisions/ADR-template.md)
