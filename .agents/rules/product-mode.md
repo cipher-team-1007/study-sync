@@ -63,11 +63,11 @@ The user shares a room URL with one or more people.
 
 Participants join the same room.
 
-Shared changes should update in real time.
+Shared changes update in real time.
 
-Participants with appropriate permissions may edit the plan or control the session.
+Host/Owner controls session flow (Start, Pause, Resume, Skip) and timeline editing; Participants view and stay in sync.
 
-The active timer and session state should remain synchronized.
+The active timer and session state remain synchronized across all connected browsers.
 
 The product should eventually feel like a dedicated collaborative study room rather than simply a timer.
 
@@ -130,28 +130,19 @@ A user should quickly understand:
 5. TARGET USER
 ==================================================
 
-Our initial target should remain focused.
+Our target audience strategy is strictly prioritized:
 
-Potential audiences:
+Primary MVP Audience:
+- Two study partners ("The Focused Peer Pair" — e.g. Alex & Maya studying together remotely or in a library)
 
-- study partners
-- college students
-- exam preparation groups
-- small study groups
+Secondary Audience (Post-Validation):
+- Small study groups of 3–5 people, later.
 
-Choose a primary audience when making product decisions.
-
-Do not attempt to serve:
-
-students
-teachers
-companies
-families
-schools
-teams
-gamers
-
-all at the same time during MVP development.
+Anti-Audiences (Explicitly NOT served during MVP):
+- Enterprise / corporate teams
+- Teachers / large 50-student classrooms
+- Gamers / public social networks
+- Families / general household task managers
 
 ==================================================
 6. PRODUCT DIFFERENTIATION
@@ -176,34 +167,22 @@ When evaluating features, ask:
 If not, it may not belong in the early product.
 
 ==================================================
-7. MVP PHILOSOPHY
+7. MVP PHILOSOPHY & MAGIC MOMENT
 ==================================================
 
-The MVP should be the smallest version that allows a real person to experience the core product loop.
+The MVP should be the smallest version that delivers **THE MAGIC MOMENT**:
+Create Timeline → Share Link → Partner Joins → Both See State → Start Session → Synchronized Live Execution.
 
-The initial MVP may include:
+Core MVP boundaries:
+- Host Account: Authenticated user creates session & timeline
+- Participant Join: Guest access with display name (no account required)
+- Session Ownership: Owner has full control (edits plan, Start, Pause, Resume, Skip); Participant views & follows sync
+- Presence: Basic Online / Offline status indicator
+- Timeline: Horizontal visual time grid with draggable/resizable study & break blocks
+- Realtime Sync: Instant broadcast of timer and block states across both screens
+- Review: Post-session summary (planned vs actual, delays/pauses, focused minutes)
 
-- create session
-- define start/end time
-- create timeline
-- create tasks
-- split tasks
-- reorder tasks
-- resize/change duration
-- share room URL
-- join room
-- realtime task changes
-- synchronized timer
-- start
-- pause
-- resume
-- skip
-- current active task
-- participant visibility
-- basic permissions
-- session completion
-
-Do not automatically add advanced capabilities to MVP.
+Do not add granular multi-user permissions, social feeds, music sync, or AI features to MVP.
 
 ==================================================
 8. FEATURE PRIORITIZATION

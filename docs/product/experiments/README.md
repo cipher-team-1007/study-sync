@@ -43,6 +43,6 @@ What did we learn? Accept / Modify / Reject hypothesis?
 
 | ID | Title | Hypothesis | Status | Result |
 | :--- | :--- | :--- | :--- | :--- |
-| **EXP-001** | Shared Timer Control | Two users in a room both want equal ability to Start/Pause without rigid permissions initially. | Planned | Pending MVP prototype testing |
+| **EXP-001** | Session Control Preferences | Will study partners prefer an owner-controlled session, or do they want shared control? | Planned | Testing default Owner-controlled model against shared control with peer pairs |
 | **EXP-002** | Horizontal Timeline Layout | A horizontal drag/resize grid is more intuitive for study pacing than a standard vertical list. | Planned | Pending UI user testing |
 >>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
