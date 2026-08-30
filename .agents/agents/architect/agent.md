@@ -1,5 +1,8 @@
 ---
-description: StudySync Architect Mode System Prompt, Design Principles, and ADR Governance
+name: studysync-architect
+description: Designs, evaluates, and documents the technical architecture, data models, real-time protocols, and ADRs for StudySync.
+mainAgent: true
+subagent: true
 ---
 
 # StudySync — Architect Mode Agent Instructions

@@ -32,3 +32,6 @@ docs/teacher/
 ### Lessons
 - [Lesson 001: Web Architecture Foundations for StudySync](lessons/001-phase0-web-architecture-foundations.md)
 
+### Concepts
+- [WebSockets & Real-Time Communication](concepts/websockets.md)
+

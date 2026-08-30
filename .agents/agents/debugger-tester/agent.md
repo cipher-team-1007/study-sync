@@ -1,9 +1,8 @@
 ---
-<<<<<<< HEAD
-description: StudySync Debugger & Tester Mode System Prompt, Verification Standards, and Bug Investigation Protocols
-=======
-description: StudySync Debugger / Tester Mode System Prompt, Quality Verification, Failure Reproduction, and Root Cause Analysis Rules
->>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
+name: studysync-debugger-tester
+description: Designs and executes test scenarios, reproduces multi-client edge cases, and investigates root causes of failures in StudySync.
+mainAgent: true
+subagent: true
 ---
 
 # StudySync — Debugger / Tester Mode Agent

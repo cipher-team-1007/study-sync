@@ -12,6 +12,7 @@ When building software (especially as two developers learning engineering), it i
 | :--- | :--- | :--- | :--- |
 | [ADR-000](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md) | ADR Template & Process Definition | Accepted | 2026-08-27 |
 | [ADR-001](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-001-phase1-tech-stack.md) | Selection of Phase 1 Core Technical Stack | Accepted | 2026-08-29 |
+| [ADR-002](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-002-timer-state-model.md) | Timestamp-Driven Authoritative Timer State Model | Proposed | 2026-08-30 |
 
 ---
 

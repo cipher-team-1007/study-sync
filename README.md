@@ -10,46 +10,81 @@
   PLAN ──► SHARE ──► JOIN ──► FOCUS ──► SYNC ──► REVIEW
 ```
 
+1. **PLAN:** Visually construct a horizontal timeline with focus blocks and breaks.
+2. **SHARE:** Generate and share a frictionless room link.
+3. **JOIN:** Peers enter the room via URL with zero friction.
+4. **FOCUS:** Work in structured focus intervals with visual progress indication.
+5. **SYNC:** Stay aligned in real time with synchronized timers, active tasks, and session status.
+6. **REVIEW:** Inspect completed blocks and celebrate collective focus.
+
 ---
 
 ## 🧭 Multi-Mode Engineering Workflow
 
-To maintain code quality, prevent scope creep, and maximize learning for two beginner developers, the project operates under strict mode separation:
+To maintain production-grade code quality, prevent scope creep, and maximize learning for two beginner developers, the project operates under strict mode separation:
 
-| Mode | Role | Core Question |
-| :--- | :--- | :--- |
-<<<<<<< HEAD
-| **Product Mode** | Scope, Strategy & Requirements | *“What should we build, for whom, why, and in what order?”* |
-| **Teacher Mode** | Mentorship & Concepts | *“Do you understand how this works?”* |
-| **Architect Mode** | System Design & ADRs | *“How should we design and structure this correctly?”* |
-| **Engineer Mode** | Implementation & Craft | *“How do we build this approved architecture cleanly?”* |
-| **Reviewer Mode** | Code Review & Invariants | *“Is it correct, safe, and good enough?”* |
-| **Debugger / Tester Mode** | Verification & Triage | *“Does it actually work and what breaks?”* |
-=======
-| **Product Mode** | Strategy, Scope & Prioritization | *“What should we build, for whom, why, and in what order?”* |
-| **Teacher Mode** | Mentorship & Concepts | *“Do you understand how this works?”* |
-| **Architect Mode** | System Design & ADRs | *“How should we design and structure this correctly?”* |
-| **Engineer Mode** | Implementation | *“How do we build this approved architecture?”* |
-| **Reviewer Mode** | Independent Code & Quality Review | *“Is this implementation actually good enough to merge, and what did the Engineer miss?”* |
-| **Debugger / Tester Mode** | Root Cause, Quality & Verification | *“Does the software actually work as intended, and if it doesn't, why?”* |
->>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
+| Mode | Role | Core Question | Agent Path |
+| :--- | :--- | :--- | :--- |
+| **Product Mode** | Strategy, Scope & Requirements | *“What should we build, for whom, why, and in what order?”* | [product/agent.md](file:///.agents/agents/product/agent.md) |
+| **Teacher Mode** | Mentorship & Technical Concepts | *“Do you understand how this works and why it is built this way?”* | [teacher/agent.md](file:///.agents/agents/teacher/agent.md) |
+| **Architect Mode** | System Design, ADRs & Invariants | *“How should we design and structure this correctly?”* | [architect/agent.md](file:///.agents/agents/architect/agent.md) |
+| **Engineer Mode** | Implementation & Vertical Slices | *“How do we build this approved architecture cleanly?”* | [engineer/agent.md](file:///.agents/agents/engineer/agent.md) |
+| **Debugger / Tester Mode** | Verification, Root Cause & Quality | *“Does it actually work under real conditions, and what breaks?”* | [debugger-tester/agent.md](file:///.agents/agents/debugger-tester/agent.md) |
+| **Reviewer Mode** | Independent Audit & Merge Readiness | *“Is it correct, secure, maintainable, and ready to merge?”* | [reviewer/agent.md](file:///.agents/agents/reviewer/agent.md) |
 
 ---
 
 ## 📚 Project Documentation
 
-<<<<<<< HEAD
-- **[Product Documentation](file:///c:/Users/kunal/Desktop/study-sync/docs/product/README.md)**: Product vision, problem statement, user flows, feature map, roadmap, and PDRs.
-- **[Architecture Documentation](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/README.md)**: System design, ADRs, data models, realtime sync protocols, and security.
-- **[Teacher Mode Knowledge Base](file:///c:/Users/kunal/Desktop/study-sync/docs/teacher/README.md)**: Sequential lessons and conceptual deep-dives.
-- **[Engineering & Learning Log](file:///c:/Users/kunal/Desktop/study-sync/docs/engineering/learning-log.md)**: Developer reflections, testing logs, and feature handoffs.
-- **[Testing & QA Documentation](file:///c:/Users/kunal/Desktop/study-sync/docs/testing/README.md)**: Test plans, test cases, bug reports, and verification logs.
-=======
-- **[Product Documentation](docs/product/README.md)**: Product vision, problem definition, target user, user flows, roadmap, and PDRs.
-- **[Architecture Documentation](docs/architecture/README.md)**: System design, ADRs, data models, realtime sync protocols, and security.
-- **[Teacher Mode Knowledge Base](docs/teacher/README.md)**: Sequential lessons and conceptual deep-dives.
-- **[Engineering Documentation](docs/engineering/README.md)**: Implementation notes, testing strategies, developer handoffs, and learning log.
-- **[Review Documentation](docs/reviews/README.md)**: Independent code reviews, security assessments, and merge-readiness evaluations.
-- **[Testing Documentation](docs/testing/README.md)**: Test plans, test cases, bug reports, realtime verification, and regression reports.
-- **[Engineering & Learning Log](docs/engineering/learning-log.md)**: Developer reflections, testing logs, and feature handoffs.
->>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
+Every mode owns and maintains its dedicated documentation tree under `docs/`:
+
+- **[Product Documentation](file:///docs/product/README.md)**: Product vision, problem definition, target user, user flows, feature map, roadmap, and PDRs.
+- **[Teacher Mode Knowledge Base](file:///docs/teacher/README.md)**: Sequential lessons and conceptual deep-dives for fundamental engineering mastery.
+- **[Architecture Documentation](file:///docs/architecture/README.md)**: System design, ADRs, data models, realtime sync protocols, and security.
+- **[Engineering Documentation](file:///docs/engineering/README.md)**: Implementation notes, testing strategies, developer handoffs, and learning log.
+- **[Testing & QA Documentation](file:///docs/testing/README.md)**: Test plans, test cases, bug reports, realtime verification, and regression reports.
+- **[Review Documentation](file:///docs/reviews/README.md)**: Independent code reviews, security assessments, and merge-readiness evaluations.
+
+---
+
+## 🏗️ Repository Structure
+
+```text
+study-sync/
+│
+├── .agents/
+│   ├── agents/
+│   │   ├── teacher/
+│   │   │   └── agent.md
+│   │   ├── product/
+│   │   │   └── agent.md
+│   │   ├── architect/
+│   │   │   └── agent.md
+│   │   ├── engineer/
+│   │   │   └── agent.md
+│   │   ├── debugger-tester/
+│   │   │   └── agent.md
+│   │   └── reviewer/
+│   │       └── agent.md
+│   │
+│   ├── rules/
+│   │   └── studysync-core.md
+│   │
+│   └── workflows/
+│       ├── README.md
+│       ├── feature-lifecycle.md
+│       ├── teaching-flow.md
+│       └── bug-triage.md
+│
+├── docs/
+│   ├── product/
+│   ├── teacher/
+│   │   ├── concepts/
+│   │   └── lessons/
+│   ├── architecture/
+│   ├── engineering/
+│   ├── testing/
+│   └── reviews/
+│
+└── README.md
+```

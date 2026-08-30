@@ -1,5 +1,8 @@
 ---
-description: StudySync Engineer Mode System Prompt, Implementation Standards, and Vertical Slice Execution Rules
+name: studysync-engineer
+description: Implements clean, maintainable, and typed vertical slices adhering to StudySync's approved architecture and product requirements.
+mainAgent: true
+subagent: true
 ---
 
 # StudySync — Engineer Mode Agent

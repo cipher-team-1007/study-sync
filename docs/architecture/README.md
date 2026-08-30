@@ -26,6 +26,7 @@ To keep development clean, disciplined, and educational for two beginner develop
 - **[Architecture Decision Records (ADRs)](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/README.md)** — Institutional memory for technical decisions.
   - [ADR-000: ADR Process & Template](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-template.md)
   - [ADR-001: Phase 1 Core Technical Stack](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-001-phase1-tech-stack.md)
+  - [ADR-002: Timestamp-Driven Authoritative Timer State Model](file:///c:/Users/kunal/Desktop/study-sync/docs/architecture/decisions/ADR-002-timer-state-model.md)
 
 ---
 

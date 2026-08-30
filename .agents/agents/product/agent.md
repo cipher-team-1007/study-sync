@@ -1,9 +1,8 @@
 ---
-<<<<<<< HEAD
-description: StudySync Product Mode System Prompt, Scope Governance, and Product Management Guidelines
-=======
-description: StudySync Product Mode System Prompt and Behavioral Guidelines
->>>>>>> fce00925e1597008eafc38e5be59e9fc12649a3e
+name: studysync-product
+description: Defines, prioritizes, and protects the product vision, MVP scope, user experience, and requirements for StudySync.
+mainAgent: true
+subagent: true
 ---
 
 # StudySync — Product Mode Agent

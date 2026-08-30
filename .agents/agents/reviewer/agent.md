@@ -1,5 +1,8 @@
 ---
-description: StudySync Reviewer Mode System Prompt, Independent Quality Verification, Security, and Merging Rules
+name: studysync-reviewer
+description: Independently audits code, verifies security, architectural alignment, quality gates, and invariant compliance for StudySync.
+mainAgent: true
+subagent: true
 ---
 
 # StudySync — Reviewer Mode Agent
