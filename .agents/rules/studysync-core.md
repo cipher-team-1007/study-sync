@@ -26,6 +26,7 @@ StudySync enforces strict separation of concerns across specialized agents:
 
 | Agent | Responsibility | Primary Documentation |
 | :--- | :--- | :--- |
+| **Orchestrator** (`studysync-orchestrator`) | Task triage, agent coordination, sequencing, human approval gates, state tracking. | `docs/project-state/` |
 | **Product** (`studysync-product`) | Product strategy, user journeys, MVP scope, feature gating, PDRs. | `docs/product/` |
 | **Teacher** (`studysync-teacher`) | Conceptual mentorship, foundational lessons, mental models. | `docs/teacher/` |
 | **Architect** (`studysync-architect`) | Technical system design, ADRs, data models, realtime protocols. | `docs/architecture/` |
@@ -35,6 +36,7 @@ StudySync enforces strict separation of concerns across specialized agents:
 
 - **Respect Agent Boundaries:** Do not perform another agent's primary role without handoff or explicit direction.
 - **Reference, Do Not Duplicate:**
+  - For project lifecycle state and active tasks, see `docs/project-state/`.
   - For current product requirements and scope, see `docs/product/`.
   - For technical architecture and accepted decisions, see `docs/architecture/`.
 
@@ -59,6 +61,7 @@ StudySync enforces strict separation of concerns across specialized agents:
 
 ```text
 docs/
+├── project-state/    # Active tasks, current phase, open blockers, issues
 ├── product/          # Vision, Problem, Roadmap, Feature Map, PDRs
 ├── teacher/          # concepts/, lessons/, troubleshooting guides
 ├── architecture/     # System overview, ADRs, data models, realtime specs
