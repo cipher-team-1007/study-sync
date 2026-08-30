@@ -56,7 +56,7 @@ Every meaningful change is evaluated against the core review gates:
 ## Index of Reviews
 
 ### Feature Reviews (`feature-reviews/`)
-*Feature reviews will be indexed here chronologically (e.g., `001-room-creation.md`).*
+- [Phase 1 Foundation & Application Scaffold Review](feature-reviews/phase1-foundation-review.md) — `APPROVE` (2026-08-31)
 
 ### Security Reviews (`security/`)
 *Security assessments and RLS audits will be recorded here.*

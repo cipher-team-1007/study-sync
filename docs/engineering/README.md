@@ -53,7 +53,7 @@ A feature is **DONE** only when:
 ## Index of Engineering Documents
 
 ### Implementation Notes (`implementation-notes/`)
-*Vertical slices and technical implementations will be indexed here as they are built.*
+- [Phase 1 Foundation & Application Scaffold Notes](implementation-notes/phase1-foundation-notes.md) (2026-08-31)
 
 ### Feature Handoffs (`feature-handoffs/`)
 *Handoff notes between developers will be recorded here.*

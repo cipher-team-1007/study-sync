@@ -171,3 +171,10 @@ Before declaring any feature verified:
 - [ ] Regression suite executed
 - [ ] Running application manually verified
 - [ ] Findings and results documented under `docs/testing/`
+
+---
+
+## 📑 Index of Session Verification Reports
+
+- [Phase 1 Foundation Verification Report](session-reports/phase1-foundation-verification.md) — `PASS` (2026-08-31)
+

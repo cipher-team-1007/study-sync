@@ -31,6 +31,7 @@ docs/teacher/
 
 ### Lessons
 - [Lesson 001: Web Architecture Foundations for StudySync](lessons/001-phase0-web-architecture-foundations.md)
+- [Lesson 002: Phase 1 Project Foundation & Application Scaffold Complete Debrief](lessons/002-phase1-project-foundation-complete-debrief.md)
 
 ### Concepts
 - [WebSockets & Real-Time Communication](concepts/websockets.md)
